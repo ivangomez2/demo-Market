@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+    <header class="header">
+        <h1>Simulador compras super</h1>
+        <p>Lista de elementos</p>
+    </header>
+    <main>
+        <section>
+            <form id="formulario">
+                <label for="producto">Nombre del producto</label>
+            <input required id="producto" name="producto" type="text">
+            <label for="cant">Cantidad</label>
+            <input required id="cant" name="cant" type="number">
+            <label for="price">Precio</label>
+            <input required id="price" name="price" type="number">
+           <button type="submit" class="btn">Agregar al carrito</button>
+        </form>
+            
+        </section>
+       <section id="productos"></section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
